@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "app/api/send/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/subscribe/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/notifications/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/info/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}

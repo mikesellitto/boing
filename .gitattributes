@@ -1,0 +1,12 @@
+# Language detection overrides for GitHub
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.mjs linguist-language=JavaScript
+
+# Mark package-lock files as generated
+package-lock.json linguist-generated=true
+**/package-lock.json linguist-generated=true
+
+# Mark examples as documentation (so they don't count toward language stats)
+examples/* linguist-documentation=true
